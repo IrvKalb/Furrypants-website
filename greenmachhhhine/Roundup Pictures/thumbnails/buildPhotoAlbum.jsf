@@ -1,0 +1,68 @@
+App.progressCountTotal = 8;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/originals/media1.jpeg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'media1.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media1_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media1_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media1_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media1_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media1_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media1_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/originals/media2.jpeg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'media2.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media2_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media2_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media2_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media2_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media2_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media2_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/originals/media3.jpeg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'media3.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media3_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media3_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media3_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media3_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media3_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media3_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/originals/media4.jpeg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'media4.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media4_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media4_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media4_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media4_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media4_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media4_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/originals/media5.jpeg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'media5.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media5_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media5_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media5_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media5_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media5_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media5_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/originals/media6.jpeg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'media6.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media6_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media6_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media6_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media6_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media6_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media6_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/originals/media7.jpeg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'media7.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media7_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media7_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media7_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media7_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media7_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media7_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/originals/media8.jpeg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'media8.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media8_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media8_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/images/media8_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media8_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media8_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/mediapage/thumbnails/media8_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+'done';

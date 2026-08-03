@@ -1,0 +1,124 @@
+App.progressCountTotal = 15;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/batteries.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'batteries.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/batteries_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/batteries_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/batteries_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/batteries_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/batteries_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/batteries_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/calgames.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'calgames.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/calgames_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/calgames_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/calgames_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/calgames_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/calgames_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/calgames_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/cowstool.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'cowstool.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/cowstool_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/cowstool_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/cowstool_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/cowstool_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/cowstool_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/cowstool_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/discussing.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'discussing.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/discussing_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/discussing_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/discussing_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/discussing_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/discussing_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/discussing_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/fromthestands.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'fromthestands.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/fromthestands_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/fromthestands_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/fromthestands_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/fromthestands_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/fromthestands_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/fromthestands_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/observing.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'observing.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/observing_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/observing_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/observing_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/observing_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/observing_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/observing_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/observing2.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'observing2.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/observing2_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/observing2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/observing2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/observing2_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/observing2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/observing2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/resetting.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'resetting.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/resetting_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/resetting_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/resetting_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/resetting_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/resetting_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/resetting_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/resetting2.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'resetting2.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/resetting2_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/resetting2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/resetting2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/resetting2_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/resetting2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/resetting2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/rookieaward.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'rookieaward.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/rookieaward_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/rookieaward_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/rookieaward_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/rookieaward_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/rookieaward_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/rookieaward_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/rookieaward2.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'rookieaward2.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/rookieaward2_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/rookieaward2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/rookieaward2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/rookieaward2_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/rookieaward2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/rookieaward2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/shooting.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'shooting.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/shooting_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/shooting_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/shooting_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/shooting_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/shooting_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/shooting_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/teampicture.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'teampicture.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/teampicture_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/teampicture_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/teampicture_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/teampicture_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/teampicture_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/teampicture_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/testdriving.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'testdriving.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/testdriving_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/testdriving_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/testdriving_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/testdriving_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/testdriving_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/testdriving_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/calgamespictures/toolchest.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'toolchest.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/toolchest_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/toolchest_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/images/toolchest_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/toolchest_jpg.jpg') || confirm('file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/toolchest_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/kirabacsi/Documents/greenmachhhhinerobotics/pictures/thumbnails/toolchest_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';

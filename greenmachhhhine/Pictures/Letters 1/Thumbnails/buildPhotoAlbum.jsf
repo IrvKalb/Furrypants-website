@@ -1,0 +1,28 @@
+App.progressCountTotal = 3;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/Girl Scout Drawing.jpeg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'Girl Scout Drawing.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/images/Girl Scout Drawing_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/images/Girl Scout Drawing_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/images/Girl Scout Drawing_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/thumbnails/Girl Scout Drawing_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/thumbnails/Girl Scout Drawing_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/thumbnails/Girl Scout Drawing_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/Girl Scout Drawing2.jpeg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'Girl Scout Drawing2.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/images/Girl Scout Drawing2_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/images/Girl Scout Drawing2_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/images/Girl Scout Drawing2_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/thumbnails/Girl Scout Drawing2_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/thumbnails/Girl Scout Drawing2_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/thumbnails/Girl Scout Drawing2_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/Girl Scout Drawing3.jpeg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'Girl Scout Drawing3.jpeg';
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/images/Girl Scout Drawing3_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/images/Girl Scout Drawing3_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/images/Girl Scout Drawing3_jpeg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/thumbnails/Girl Scout Drawing3_jpeg.jpg') || confirm('file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/thumbnails/Girl Scout Drawing3_jpeg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Kira/Users/kirabacsi/Documents/gmachhhhinewebsite/Girl Scout Drawing/GS Drawing Album/thumbnails/Girl Scout Drawing3_jpeg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+'done';
