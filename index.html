@@ -1,234 +1,54 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-  <title>Furry Pants Productions</title>
+<!DOCTYPE html>
+<html lang="en">
 
-  
-  
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+	<link rel="stylesheet" href="style.css">
 
-<style type="text/css">
-.PythonCode {
-	font-family: Courier New, Courier, monospace;
-}
-.Notice {
-	color: #00F;
-}
-</style>
-</head><body style="background-color: rgb(255, 255, 255);">
-<div align="center">
-<p><font size="7">Errata for <em>Object-Oriented Python</em></font></p>
-<p>(As of&nbsp; 12/10/24)</p>
-<p>&nbsp;</p>
-<h7 align="center"></h7>
-<p class="Notice"><font size="6"><strong>Important notice about pygame</strong></font></p>
-<h3 align="left" class="Notice">As of Python 3.11, a new branch of pygame, named &quot;pygame-ce&quot; (<em>community edition</em>), must be used.&nbsp; (The details of this are too complex to go into here.)&nbsp; In all printings of Object-Oriented Python, there are these installations instructions for the pygame package:</h3>
-<p align="left" class="Notice"><strong>Page 90</strong>:&nbsp; Installing the pygame package.&nbsp; The  page says to enter these commands at the command line:</p>
-<p align="left" class="Notice"><font size="4"><code>python3 -m&nbsp;pip install -U pip --user<br>
-  python3 -m pip install -U pygame --user</code></font></p>
-<p align="left" class="Notice">To install the community edition of pygame, you must first uninstall the older version of pygame if you have already installed it.&nbsp;Here are the updated commands that you should use at the command line.:</p>
-<p align="left" class="Notice"><font size="4"><code>python3 -m&nbsp;pip install -U pip --user<br>
-  python3 -m pip uninstall -U pygame --user <br>
-  python3 -m pip install -U pygame-ce --user</code></font></p>
-<p align="left" class="Notice">After installing pygame-ce, you do NOT need to change anything to use the example&nbsp;code from the book.&nbsp;In fact, the import statement:<br>
-  <br>
-  <font size="4"><code>import pygame</code></font></p>
-<p align="left" class="Notice">will work to bring in the new pygame-ce package.</p>
-<p align="left">&nbsp;</p>
-<p align="left">&nbsp;</p>
-<p><font size="7">Updates to the 4th printing</font></p>
-<p align="left"><font size="4"><strong>Page 37:</strong>&nbsp; In the code for Listing 2-7 (TV.py), in the channelUp method, line 38 that says:</font></p>
-<p align="left"><font size="4"><code>if self.channel &gt; self.nChannels:</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>if self.channelIndex == self.nChannels:</code></font></p>
-<p align="left"></p>
-<p align="left">=======================================================================================</p>
-<p>&nbsp;</p>
-<p><font size="7">Updates to the 2nd and 3rd printing</font></p>
-<p align="left"><font size="4"><strong>Page 37:</strong>&nbsp; In the code for Listing 2-7 (TV.py), in the channelUp method, line 38 that says:</font></p>
-<p align="left"><font size="4"><code>if self.channel &gt; self.nChannels:</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>if self.channelIndex == self.nChannels:</code></font></p>
-<p align="left"></p>
-<p align="left"><font size="4"><strong>Page 117:</strong>&nbsp; In the code for Listing 5-8, the lines for drawing anti-aliased lines say:</font></p>
-<p align="left"><font size="4"><code>pygame.draw.aaline(window, RED, (500, 400), (570, 470), 1)<br>
-</code></font><font size="4"><code>pygame.draw.aalines(window, BLUE, (500, 400), True,<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ((580, 480), (587, 450),<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(595, 460), (600, 444)), 1)</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>pygame.draw.aaline(window, RED, (500, 400), (570, 470))<br>
-</code></font><font size="4"><code>pygame.draw.aalines(window, BLUE, (500, 400), True,<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ((580, 480), (587, 450),<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(595, 460), (600, 444)))</code></font></p>
-<p align="left">(a fifth pygame parameter was removed)</p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 118:</strong>&nbsp;The documentation on this page for both  &quot;Anti-aliased line&quot; and&quot; Anti-aliased line&quot;s includes a fifth argument: &quot;blend&quot;.&nbsp; </font>The blend value has been deprecated in the latest version of pygame-ce.&nbsp;The discussion of blend in the paragraphs here should be ignored as each call now only uses four arguments.</p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 199:</strong>&nbsp; In the code for Listing 9-7, the line with the circled 2 has a typo. The line that says:</font></p>
-<p align="left"><font size="4"><code>oSecondRectangle2 = oRectangle</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>oSecondRectangle = oRectangle</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 208:</strong>&nbsp; The code for Listing 9-10, has an error in the last line.&nbsp; The line that says:</font></p>
-<p align="left"><font size="4"><code>print('The sum of 5/2 and 500/2\n, oFraction5 + oFraction6)</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>print('The sum of 5/2 and 500/200\n, oFraction5 + oFraction6)</code></font></p>
-<p align="left"><font size="4">Also, in the section below that shows the generated output, the line</font>:</p>
-<p align="left"><font size="4"><code>The sum of 5/2 and 500/2</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>The sum of 5/2 and 500/200</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><strong></strong><font size="4"><strong>Page 301:</strong>&nbsp; The code for Listing 14-3 for SimpleSpriteSheetAnimation, has two errors.&nbsp; The lines that says:</font></p>
-<p align="left"><font size="4"><code>x = col * height</code></font></p>
-<p align="left"><code><font size="4">y = row * width</font></code></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>x = col * width</code></font></p>
-<p align="left"><code><font size="4">y = row * height</font></code></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 307:</strong>&nbsp; The documentation for the loop parameter says:</font></p>
-<p align="left"><font size="4"><code>True if you want to animation to loop ...</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>True if you want the animation to loop ...</code></font></p>
-<p align="left"><font size="4"><code></code></font></p>
-<p align="left"><font size="4"><strong>Page 320:</strong>&nbsp; About half way down the page, in the discussion labeled &quot;Scenes&quot;, there is a reference to the filename:</font></p>
-<p align="left"><font size="4"><code><em>ExampleScene.py</em></code></font></p>
-<p align="left"><font size="4">has an incorrect name.&nbsp; It should be:</font></p>
-<p align="left"><font size="4"><code><em>SceneExample.py</em></code></font></p>
-<p align="left"><strong></strong><font size="4"><code><br>
-  <br>
-</code><strong>Page 339:</strong>&nbsp; The diagram in Figure 15-9 has two errors:</font></p>
-<p align="left"><font size="4"><code>The arrow associated with the circled Step 2 is labelled as:</code></font></p>
-<p align="left"><font size="4"><code>self._request_respond</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>self.oSceneMgr._request_respond</code></font></p>
-<p align="left"><font size="4">and:</font></p>
-<p align="left"><font size="4"><code>The box in the bottom right is labelled as &quot;Current Scene&quot;</code></font></p>
-<p align="left"><font size="4"><code>should be labelled as &quot;Target Scene&quot;</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 348:</strong>&nbsp; The list of contents of the project folder has a file with the name:</font></p>
-<p align="left"><font size="4"><code>Scene.Splash.py</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>SceneSplash.py</code></font></p>
-<p align="left">=======================================================================================</p>
-<p>&nbsp;</p>
-<p><font size="7">Updates to 1st printing</font></p>
-<p>&nbsp;</p>
-<p align="left"><font size="4"><strong>Page xxii:</strong>&nbsp;&quot;Python Version(s) and Installation&quot; says:</font></p>
-<p align="left"><font size="4"><code>&quot;All the example code in this book was written and tested using Python versions 3.6 through 3.9.&nbsp; All the examples should work fine with version 3.6 or newer.</code></font>&quot;</p>
-<p align="left"><font size="4">This should  be:</font></p>
-<p align="left"><font size="4"><code>&quot;All the example code in this book was written and tested using Python version 3.9.&nbsp; All the examples should work fine with version 3.9 or newer.</code></font>&quot;</p>
-<p align="left">&nbsp;</p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 6:</strong>&nbsp; In Listing 1-1, near the end of the code, the line that reads:</font></p>
-<p align="left"><font size="4"><code>currentCardValue = nextCardValue&nbsp; # don't need current card suit</code></font></p>
-<p align="left"><font size="4">should  be the two lines:</font></p>
-<p align="left"><font size="4"><code>currentCardValue = nextCardValue<br>
-  currentCardSuit = nextCardSuit
-</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 37:</strong>&nbsp; In Listing 2-7, in line 13 of the <code>TV.py</code> class code, the line that reads:</font></p>
-<p align="left"><font size="4"><code>self.volume = self.VOLUME_MAXIMUM //&nbsp; # integer divide</code></font></p>
-<p align="left"><font size="4">should  be:</font></p>
-<p align="left"><font size="4"><code>self.volume = self.VOLUME_MAXIMUM // 2&nbsp; #integer divide</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 63:</strong>&nbsp; In Listing 4-3, the line that reads:</font></p>
-<p align="left"><font size="4"><code>print('After depositing 100, the user's balance is:', usersBalance)</code></font></p>
-<p align="left"><font size="4">should  be:</font></p>
-<p align="left"><font size="4"><code>print(&quot;After depositing 100, the user's balance is:&quot;, usersBalance)</code></font></p>
-<p align="left"><font size="4">The same error should also be corrected on page 65 in Listing 4-4 , and on page 67 in Listing 4-5.</font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 101:</strong>&nbsp; When describing how to build a path, the following line</font>:</p>
-<p align="left"><font size="4"><code>pathToBall = BASE_PATH + 'images/ball.png'</code></font></p>
-<p align="left"><font size="4">should now be:</font></p>
-<p align="left"><font size="4"><code>pathToBall = BASE_PATH / 'images/ball.png'</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 123:</strong>&nbsp; In Listing 6-1, the line labelled with (5) should be outdented by one level.</font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 154:</strong>&nbsp; In the code snippet for using a Button object, the last line:</font></p>
-<p align="left"><font size="4"><code>oButton.draw()</code></font></p>
-<p align="left"><font size="4">should be indented one level.</font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 191:</strong>&nbsp; Listing 9-5, has two errors.&nbsp; The line that reads:</font></p>
-<p align="left"><font size="4"><code>for i in range(0, N_SHAPES):</code></font></p>
-<p align="left"><font size="4">is shown indented by one character, but it should not be indented at all.</font></p>
-<p align="left"><font size="4">Also, in the MOUSEBUTTONDOWN code, the line</font>:</p>
-<p align="left"><font size="4"><code>newText = 'Clicked on a ' + theType + ' whose area is' + area)</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>newText = 'Clicked on a ' + theType + ' whose area is ' + area</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 202:</strong>&nbsp; In Listing 9-8, the line that reads:</font></p>
-<p align="left"><font size="4"><code>if isInstance(oOther, Vector):&nbsp; # multiply two vectors</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>if isinstance(oOther, Vector):&nbsp; # multiply two vectors</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 205:</strong>&nbsp; The code for Listing 9-9, has two errors.&nbsp; The line that reads:</font></p>
-<p align="left"><font size="4"><code>print('Vector 2 times 5: ', v1 * 5)</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>print('Vector 1 times 5: ', v1 * 5)</code></font></p>
-<p align="left"><font size="4">Also, in the section that shows the generated output, the line</font></p>
-<p align="left"><font size="4"><code>Vector 2 times 5: This vector has the value(15, 20)</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>Vector 1 times 5: this vector has the value(15, 20)</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"></font><font size="4"><strong>Page 206:</strong>&nbsp; In Listing 9-10, the code of the <code>__add__()</code> method makes a call to <code>math.lcm()</code>.&nbsp; This does work.&nbsp; However, <code>math.lcm()</code> is only supported in Python 3.9 and later.&nbsp; The introduction to the first eedition of the book says that all code works with Python versions 3.6 and later, but s</font>ee the first erratum in this list.</p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 208:</strong>&nbsp; The code for Listing 9-10, has an error in the last line.&nbsp; The line that reads:</font></p>
-<p align="left"><font size="4"><code>print('The sum of 5/2 and 500/2\n, oFraction5 + oFraction6)</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>print('The sum of 5/2 and 500/200\n, oFraction5 + oFraction6)</code></font></p>
-<p align="left"><font size="4">Also, in the section below that shows the generated output, the line</font>:</p>
-<p align="left"><font size="4"><code>The sum of 5/2 and 500/2</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>The sum of 5/2 and 500/200</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 223:</strong>&nbsp; In Listing 10-4, the parameter <code>value</code> is listed twice, at positions 4 and 12.&nbsp; The line:</font></p>
-<p align="left"><font size="4"><code>justified='left', value=None, currencySymbol='$',</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>justified='left', nickname=None, currencySymbol='$',</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 250:</strong>&nbsp; In Listing 11-3, the last line:</font></p>
-<p align="left"><font size="4"><code>oSample1.howManyObject()</code></font></p>
-<p align="left"><font size="4">does work correctly.&nbsp; But a better example would be to access the variable associated with the class directly and therefore should be:</font></p>
-<p align="left"><font size="4"><code>print('Number of objects:', Sample.nObjects)</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 256:</strong>&nbsp; In Listing 11-6, after the line:</font></p>
-<p align="left"><font size="4"><code>self.nMissed = 0</code></font></p>
-<p align="left"><font size="4">there should be an additional line:</font></p>
-<p align="left"><font size="4"><code>self.score = 0</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 271:</strong>&nbsp; In Listing 12-2, the last line:</font></p>
-<p align="left"><font size="4"><code>self.deckList.insert(0, oCard)</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>self.playingDeckList.insert(0, oCard)</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 296:</strong>&nbsp; In Listing 14-1, the  parameter list for the __init__() method:</font></p>
-<p align="left"><font size="4"><code>def __init__(self, window, loc, picPaths durationsPerImage):</code></font></p>
-<p align="left"><font size="4">is missing a comma.&nbsp; It should be:</font></p>
-<p align="left"><font size="4"><code>def __init__(self, window, loc, picPaths, durationsPerImage):</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"></p>
-<p align="left"><font size="4"><strong>Page 303:</strong>&nbsp; In Listing 14-4, in the line that defines <code>oWaterAnimation</code>, the line that says:</font></p>
-<p align="left"><font size="4"><code>5, 50, 192, 192, .05)</code></font></p>
-<p align="left"><font size="4">should be:</font></p>
-<p align="left"><font size="4"><code>50, 192, 192, .05)</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 305:</strong>&nbsp; In the second line in the interface of the <code>Animation</code> class, the line:</font></p>
-<p align="left"><font size="4"><code>loop=False, nickname=None, callBack=None, nIterations=1)</code></font></p>
-<p align="left"><font size="4">is missing a parameter.&nbsp; It should be:</font></p>
-<p align="left"><font size="4"><code>loop=False, showFirstImageAtEnd=True, nickname=None, callBack=None, nIterations=1)</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><font size="4"><strong>Page 306:</strong>&nbsp; In the third line in the interface of the <code>SpriteSheetAnimation</code> class, the line:</font></p>
-<p align="left"><font size="4"><code>autoStart=False, loop=False, nickname=None,</code></font></p>
-<p align="left"><font size="4">is missing a parameter.&nbsp; It should be:</font></p>
-<p align="left"><font size="4"><code>autoStart=False, loop=False, showFirstImageAtEnd=True, nickname=None,</code></font></p>
-<p align="left">&nbsp;</p>
-<p align="left"><strong></strong></p>
-<p align="left"><strong></strong></p>
-<p align="left"><font size="4"><br>
-  
-</font></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-</div>
 
-</body></html>
+</head>
+<body>
+
+
+    <div class="side-by-side">
+        <img src="fpp.gif" width="372" height="233">
+        <div class="text"> 
+            <h2>Welcome to Furry Pants Productions<br><br>(Irv Kalb)</h2>
+        </div>
+    </div>
+
+    <div class="side-by-side">
+    	<image src="ObjectOrientedPython.jpg" width="285" height = "375">
+        <div class="text"> 
+         <h3>Object-Oriented Python is an intuitive and thorough guide to mastering object-oriented programming from the ground up. You’ll cover the basics of building classes and creating objects, and put theory into practice using the pygame package with clear examples that help visualize the object-oriented style. You’ll explore the key concepts of object-oriented programming — encapsulation, polymorphism, and inheritance — and learn not just how to code with objects, but the absolute best practices for doing so. Finally, you’ll bring it all together by building a complex video game, complete with full animations and sounds. The book covers two fully functional Python code packages that will speed up development of graphical user interface (GUI) programs in Python.</h3>
+         <a href="https://www.amazon.com/Object-Oriented-Python-Master-Building-Games/dp/1718502060"><h3>See it on Amazon<h3> </a>
+        <h3>93% 4 and 5 star reviews!</h3>
+        <a href="https://nostarch.com/object-oriented-python"><h3>Also available directly from the publisher - No Starch Press<h3> </a>
+        </div>
+    </div>
+
+      
+      
+      <p align="center">&nbsp;</p>
+      <h2 align="center"><br>
+      </h2>
+
+    <section>
+      <p align="center">&nbsp;</p>
+      <h2 align="center">Contact</h2>
+        <p align="center">
+        You can reach me by email: <a href="mailto:Irv@furrypants.com">Irv@furrypants.com</a></p>
+    </section>
+    
+    <p align="center"><font size="2">The name Furry Pants Productions comes from our early
+work on kid's CD-ROM's.<br>The name refers to the fact that, no matter what the
+weather is, dogs and cats always have to wear "furry pants".</font></p>
+<p align="center"><a href="darby/index.html"><img src="darbyonskates.gif" border="0" height="123" width="204"></a></p>
+<p align="center">&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>
