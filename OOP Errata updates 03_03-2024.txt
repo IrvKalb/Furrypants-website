@@ -1,0 +1,59 @@
+Page 199:  In the code for Listing 9-7, the line with the circled 2 has a typo. The line that says:
+
+oSecondRectangle2 = oRectangle
+
+should be:
+
+oSecondRectangle = oRectangle
+
+
+
+Page 301:  The code for Listing 14-3 for SimpleSpriteSheetAnimation, has two errors.  The lines that say:
+
+x = col * height
+
+y = row * width
+
+should be:
+
+x = col * width
+
+y = row * height
+
+
+
+Page 307:  The documentation for the loop parameter says:
+
+True if you want to animation to loop ...
+
+should be:
+
+True if you want the animation to loop ...
+
+
+
+Page 339:  The diagram in Figure 15-9 has two errors:
+
+The arrow associated with the circled Step 2 is labelled as:
+
+self._request_respond
+
+should be:
+
+self.oSceneMgr._request_respond
+
+and:
+
+The box in the bottom right is labelled as "Current Scene"
+
+should be labelled as "Target Scene"
+
+
+
+Page 348:  The list of contents of the project folder has a file with the name:
+
+Scene.Splash.py
+
+should be:
+
+SceneSplash.py
